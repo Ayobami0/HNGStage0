@@ -12,7 +12,7 @@ func main() {
 		w.Header().Set("Content-Type", "application/json")
 
 		jsonValue := map[string]any{
-			"email":            "oludemiayobami@gmail.con",
+			"email":            "oludemiayobami@gmail.com",
 			"current_datetime": time.Now().Format("2006-01-02T15:04:05Z"),
 			"github_url": "https://github.com/Ayobami0/HNGStage0",
 		}
